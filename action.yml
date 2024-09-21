@@ -153,6 +153,6 @@ runs:
         number: ${{ inputs.prNumber }}
         id: meshmap-snapshot
         message: '[<img src="${{env.RESOURCE_URL}}">](${{env.RESOURCE_URL}})
-          View the design on [Meshery Playground](https://playground.meshery.io/design/${{ inputs.designID }}).  
+          [View the design on Meshery Playground](https://playground.meshery.io/extension/meshmap?mode=design&design=${{ inputs.designID }}),
          _[Interpreting Meshery Designs](https://meshery.layer5.io/academy/learning-paths/mastering-meshery/introduction-to-meshery?chapter=interpreting-meshery-designs)_'
         append: false
